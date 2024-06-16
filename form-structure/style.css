@@ -1,0 +1,25 @@
+ul {
+    list-style-type:none;
+}
+
+form {
+    border-radius:10px;
+    outline:1px solid black;
+}
+
+fieldset {
+    width:40%;
+
+}
+
+li~li {
+    margin-top:5px;
+}
+
+section {
+    margin:10px;
+}
+
+[type="submit"] {
+    margin:5px;
+}
