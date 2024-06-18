@@ -36,15 +36,15 @@
       <ul>
         <li>
           <label for="uname">User name:</label>
-          <input required type="text" name="uname" id="uname" minlength="5" maxlength="20">
+          <input required type="text" name="uname" id="uname" minlength="5" maxlength="20" pattern="[a-z]\.[a-z0-9][a-z0-9][a-z0-9]+">
         </li>
         <li>
           <label for="email">Email address:</label>
-          <input required type="email" name="email" id="email">
+          <input required type="email" name="email" id="email" pattern="[A-Za-z0-9]\@bigcorp.eu">
         </li>
         <li>
           <label for="phone">Phone number:</label>
-          <input required type="tel" name="phone" id="phone" minlength="10" maxlength="15">
+          <input required type="tel" name="phone" id="phone" minlength="10" pattern="\d{10}">
         </li>
         <li>
           <label for="comment">Comment:</label>
